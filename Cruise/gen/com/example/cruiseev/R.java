@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package com.prototype.cruise;
+package com.example.cruiseev;
 
 public final class R {
     public static final class attr {
@@ -25,27 +25,30 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int action_defaultacc=0x7f08000a;
-        public static final int action_defaultdrivecycle=0x7f08000c;
-        public static final int action_defaultrange=0x7f080009;
-        public static final int action_defaultspeed=0x7f08000b;
-        public static final int b_drive=0x7f080006;
-        public static final int et_acc_mistakes=0x7f080004;
-        public static final int et_distance=0x7f080003;
-        public static final int et_speed_mistakes=0x7f080005;
-        public static final int tv_date1=0x7f080007;
-        public static final int tv_date2=0x7f080008;
-        public static final int tv_points=0x7f080000;
-        public static final int tv_remaining_range=0x7f080001;
-        public static final int tv_starting_range=0x7f080002;
+        public static final int action_settings=0x7f080010;
+        public static final int b_drive=0x7f080004;
+        public static final int et_acc_mistakes=0x7f080002;
+        public static final int et_distance=0x7f080001;
+        public static final int et_speed_mistakes=0x7f080003;
+        public static final int group=0x7f080005;
+        public static final int group1=0x7f080006;
+        public static final int group2=0x7f080008;
+        public static final int group3=0x7f08000b;
+        public static final int li_accmist=0x7f08000e;
+        public static final int li_date=0x7f08000a;
+        public static final int li_dist=0x7f08000c;
+        public static final int li_id=0x7f08000d;
+        public static final int li_point=0x7f080007;
+        public static final int li_remdist=0x7f080009;
+        public static final int li_spmist=0x7f08000f;
+        public static final int tv_starting_range=0x7f080000;
     }
     public static final class layout {
-        public static final int activity_after_drive=0x7f030000;
-        public static final int activity_drive=0x7f030001;
+        public static final int activity_cruise=0x7f030000;
+        public static final int list_item=0x7f030001;
     }
     public static final class menu {
-        public static final int after_drive=0x7f070000;
-        public static final int drive=0x7f070001;
+        public static final int cruise=0x7f070000;
     }
     public static final class string {
         public static final int acc_mistakes=0x7f050009;
@@ -53,6 +56,7 @@ public final class R {
         public static final int action_defaultdrivecycle=0x7f050006;
         public static final int action_defaultrange=0x7f050003;
         public static final int action_defaultspeed=0x7f050005;
+        public static final int action_settings=0x7f05000f;
         public static final int app_name=0x7f050000;
         public static final int drive_button=0x7f05000b;
         public static final int drive_distance=0x7f050008;
